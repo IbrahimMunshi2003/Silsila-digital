@@ -5,7 +5,7 @@ import { Bot, ChevronDown, LoaderCircle, Send, Sparkles, X } from "lucide-react"
 import { FormEvent, useRef, useState } from "react";
 
 type Message = { role: "user" | "assistant"; content: string };
-const starter: Message = { role: "assistant", content: "Hi — I’m Silsila Digital AI, Ibrahim Munshi’s portfolio assistant. Ask me about a project, service, or how we could work together." };
+const starter: Message = { role: "assistant", content: "Hi — I’m Silsila Digital AI, Silsila Digital’s portfolio assistant. Ask me about a project, service, or how we could work together." };
 
 export function ChatWidget() {
   const [open, setOpen] = useState(false);
